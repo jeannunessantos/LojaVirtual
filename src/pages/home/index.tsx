@@ -1,7 +1,7 @@
 import { useEffect, useState, useContext } from 'react'
 import { BsCartPlus } from 'react-icons/bs'
 
-import { api } from '../../services/api'
+import {api}from '../../services/API'
 import { CartContext } from '../../contexts/CartContext'
 import { toast } from 'react-hot-toast'
 import {Link} from 'react-router-dom'
